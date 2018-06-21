@@ -6,6 +6,11 @@ puts "-----------"
 puts " #{b[6]} | #{b[7]} | #{b[8]} "
 end
 
+def input_to_index(input = 0)
+
+index = input.to_i - 1
+return index
+end
 
 def valid_move?(board,index)
 if(index >= 0 && index <= 8 && position_taken?(board,index) == false)
