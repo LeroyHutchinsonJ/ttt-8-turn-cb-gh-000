@@ -1,4 +1,4 @@
-def display_board(board)
+def display_board(b)
 puts " #{b[0]} | #{b[1]} | #{b[2]} "
 puts "-----------"
 puts " #{b[3]} | #{b[4]} | #{b[5]} "
